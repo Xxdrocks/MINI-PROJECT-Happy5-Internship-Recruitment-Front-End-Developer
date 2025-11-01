@@ -1,17 +1,32 @@
-* {
+@import "tailwindcss";
+
+@font-face {
+    font-family: "SemiBold";
+    src: url("../public/assets/fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url("../public/assets/fonts/OpenSans-Regular.ttf");
+}
+
+@theme {
+    --font-SemiBold: "SemiBold";
+    --font-Regular: "Regular";
+}
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-.sidebar {
-    position: fixed;
-    display: flex;
-    height: 100vh;
-    padding: 13px;
-    background-color: #1A0931;
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;   
 }
 
-.sidebar img {
-width: 19px;
+::-webkit-scrollbar {
+  height: 0;
 }
