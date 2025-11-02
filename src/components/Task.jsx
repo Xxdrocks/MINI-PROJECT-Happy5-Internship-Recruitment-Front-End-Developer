@@ -11,7 +11,7 @@ const Task = () => {
         {taskData.map(({ title, year, task }) => (
           <div className='h-fit rounded-[4px] border-[1px] border-[#F2F2F4]'>
             <div className='flex w-[308px] flex-col gap-[16px] p-[12px]'>
-              <div className='flex flex-col gap-[4px]'>
+              <div className='flex flex-col gap-[4px] w-[282px] '>
                 <h1 className='font-Regular text-[12px] text-[#5D6372]'>
                   {title}
                 </h1>
@@ -29,7 +29,7 @@ const Task = () => {
                             {task}
                           </h1>
                         </div>
-                        <div className='flex flex-row justify-between items-center'>
+                        <div className='w-[250px] h-[16px] flex flex-row justify-between items-center'>
                           <div className='flex gap-[8px] items-center'>
                             <img src={weight} alt='progress' className='w-[16px] h-[16px]' />
                             <h1 className=' text-[12px] text-[#5D6372]'>{progress}%</h1>
@@ -42,7 +42,7 @@ const Task = () => {
                     </div>
                   ))
                 ) : (
-                  <div className='pt-[8px]'>
+                  <div className='pt-[8px] w-[282px]'>
                     <p className='font-[14px] font-Regular text-[#B7BDC9]'>No Task Available</p>
                   </div>
                 )}

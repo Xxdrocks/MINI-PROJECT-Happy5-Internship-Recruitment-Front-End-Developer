@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='w-[68px] h-screen'></div>
                 <div className='flex flex-col gap-[24px]'>
                     <div className='mt-[20px]'>
-                        <h1 className='font-SemiBold text-[20px]'>
+                        <h1 className='w-[174px] font-SemiBold text-[20px]'>
                             Product Roadmap
                         </h1>
                     </div>
