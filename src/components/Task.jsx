@@ -20,9 +20,6 @@ const Task = () => {
                 {task.length > 0 ? (
                   task.map(({ id, task, progress, available }) => (
                   <div>
-                    {/* <div>
-                    <h1 className='text-[#B7BDC9]'>{available}</h1>
-                    </div> */}
                     <div className='w-[282px] h-auto border-[1px] border-[#E4E4E8] rounded-[4px] p-[16px] gap-[28px] flex flex-col'>
                       <div>
                         <h1 className=' text-[#2F3136] font-SemiBold w-[250.001px]'>

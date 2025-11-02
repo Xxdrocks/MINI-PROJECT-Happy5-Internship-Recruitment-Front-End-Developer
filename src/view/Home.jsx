@@ -15,7 +15,6 @@ const Home = () => {
                         </h1>
                     </div>
                     <Task />
-                    {/* <p>test</p> */}
                 </div>
             </div>
         </div>
